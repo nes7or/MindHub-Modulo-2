@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item{
+    font-size: 12px;
+    margin: 10px;
+}
+header section{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    align-items: center;
+}
+header li{
+    border: 1px solid;
+}
+header h1{
+    width: 80%;
+    text-align: center;
+}
+.prev-next{
+    text-decoration: none;
+    font-size: 50px;
+}
+
+main nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    padding-right: 1rem;
+}
+.search{
+    position: relative;
+    display: flex;
+}
+#lupa{
+    border: transparent;
+    background-size: cover;
+}
+
+.row{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.card{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.card img{
+    padding: 5%;
+}
+.card{
+    text-align: center;
+}
+.cardfooter{
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid;
+    justify-content: space-between;
+}
+/*footer img{
+    padding-left: 1%;
+    align-items: flex-start;
+}*/
+.cohort {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: end;
+}
+.ContactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+.HeadForm{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    width: 60px;
+}
+.table{
+    width: 90%;
+    margin: 5%;
+}
+.th1{
+    background-color: rgb(238, 155, 72);
+    border: 2px solid;
+    font-size: large;
+}
+.th2 th{
+    border: 1px solid;
+    font-size: small;
+}
+.table, td{
+    border: 1px solid;
+}
+.c-body{
+    margin-top: 4%;
+}
